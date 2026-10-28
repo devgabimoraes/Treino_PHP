@@ -18,7 +18,7 @@
 
     do{
         $resultado=rand(1,100);
-        echo "Resultado: ".$resultado."<br>";
+        echo "Resultado: $resultado <br>";
         $tentativa1++;
     } while ($secreto!=$resultado);
     echo "Tentativas: ".$tentativa1;
